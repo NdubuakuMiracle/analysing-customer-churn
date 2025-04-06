@@ -1,4 +1,4 @@
-# Customer Churn Analysis: Power BI Dashboard
+# Customer Churn Analytics: Power BI Dashboard
 
 ## Overview
 This Power BI dashboard explores customer churn patterns, helping businesses identify key factors driving customer departures. By analyzing various metrics like contract type, age group, and payment method, it offers actionable insights to improve customer retention strategies.
