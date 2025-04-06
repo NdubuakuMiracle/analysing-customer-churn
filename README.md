@@ -54,4 +54,4 @@ To address churn:
 - **Power BI**: For data visualization and dashboard creation.
 
 ## Access the Dashboard
-[![Power BI Dashboard](https://img.shields.io/badge/Power%20BI-Dashboard-blue)](https://drive.google.com/file/d/1Z02P8uFKCElsTu1IWGBt0_sqSa4CdMQB/view?usp=drive_link) to view the Power BI dashboard.
+[![Power BI Dashboard](https://img.shields.io/badge/Power%20BI-Dashboard-blue)](https://drive.google.com/file/d/1Z02P8uFKCElsTu1IWGBt0_sqSa4CdMQB/view?usp=sharing) to view the Power BI dashboard.
