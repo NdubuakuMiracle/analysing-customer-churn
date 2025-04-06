@@ -1,32 +1,54 @@
-# Efficient Dataset Storage for Job Change Prediction  
+# Customer Churn Analysis: Power BI Dashboard
 
-## Project Overview  
+## Overview
+This Power BI dashboard explores customer churn patterns, helping businesses identify key factors driving customer departures. By analyzing various metrics like contract type, age group, and payment method, it offers actionable insights to improve customer retention strategies.
 
-This project focuses on optimizing the storage of a large customer dataset for Training Data Ltd., a prominent online data science training provider. The aim is to clean and restructure the dataset to enhance its efficiency, enabling quicker model predictions related to students' job-seeking behavior.  
+## Key Insights
 
-## Dataset  
+### 1. **Churn Rates by Age Group**
+- Younger customers under 30 have higher churn rates (38.46%) compared to other demographics.
+- Overall churn rate across all ages: **26.86%**.
 
-The dataset used for this project is `customer_train.csv`, which contains anonymized information about students and their job-seeking status. The key columns in the dataset include:  
+### 2. **Churn Reasons**
+- Leading causes of churn include:
+  - Competitor offerings and pricing.
+  - Product dissatisfaction and network reliability.
+  - Limited range of services and extra charges.
+- Top categories driving churn:
+  - **Competitor**: 44.82%.
+  - **Attitude**: 15.98%.
+  - **Dissatisfaction**: 15.92%.
+  - **Price**: 11.14%.
 
-| Column                     | Description                                                   |  
-|----------------------------|---------------------------------------------------------------|  
-| `student_id`               | A unique ID for each student.                                 |  
-| `city`                     | A code for the city where the student resides.               |  
-| `city_development_index`   | A scaled development index for the city.                     |  
-| `gender`                   | The student's gender.                                        |  
-| `relevant_experience`      | An indicator of the student's relevant work experience.       |  
-| `enrolled_university`      | The type of university course the student is enrolled in (if any). |  
-| `education_level`          | The student's education level.                                |  
-| `major_discipline`         | The educational discipline of the student.                   |  
-| `experience`               | The student's total work experience (in years).              |  
-| `company_size`             | The number of employees at the student's current employer.    |  
-| `company_type`             | The type of company employing the student.                   |  
-| `last_new_job`             | The number of years between the student's current and previous jobs. |  
-| `training_hours`           | The number of hours of training completed.                   |  
-| `job_change`               | An indicator of whether the student is looking for a new job (1) or not (0). |  
+### 3. **Churn Rate by Contract Type**
+- Month-to-month contracts have a significantly higher churn rate (46.29%) compared to yearly contracts (6.62%).
+- Contract breakdown:
+  - **Month-to-Month**: 51.01%.
+  - **One-Year Contracts**: 26.87%.
+  - **Two-Year Contracts**: 22.12%.
 
-## Objectives  
+### 4. **Impact of Unlimited Data Plans**
+- Customers with unlimited data plans exhibit higher churn rates (32.11%) compared to those without (16.10%).
+- Unlimited Data Plan Adoption:
+  - Yes: 66.11%.
+  - No: 33.64%.
 
-- Clean and optimize the `customer_train.csv` dataset for efficient storage.  
-- Develop a proof-of-concept for a more efficient storage solution.  
-- Prepare the dataset for subsequent analysis to predict if students are seeking new job opportunities.  
+### 5. **Churn by Account Length**
+- Longer account durations correlate with lower churn rates, highlighting the importance of customer retention efforts for newer accounts.
+
+### 6. **Payment Method and Churn**
+- Churn rate by payment method:
+  - **Direct Debit**: 55.36%.
+  - **Credit Card**: 39.09%.
+  - **Paper Checks**: 5.55%.
+
+## Recommendations
+To address churn:
+- **Focus on Competitive Pricing**: Competitor offerings are a major driver of churn; businesses should evaluate their pricing strategies.
+- **Improve Customer Service**: Negative attitudes and dissatisfaction are significant contributors; enhancing support quality can reduce churn.
+- **Retain Long-Term Customers**: Incentives for longer contracts can improve retention rates.
+- **Enhance Data Plans**: Unlimited plans show higher churn; reevaluating their structure might help retain users.
+- **Tailored Retention Efforts**: Target groups with shorter account lengths and specific demographics (e.g., younger customers).
+
+## Technologies Used
+- **Power BI**: For data visualization and dashboard creation.
